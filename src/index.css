@@ -1,0 +1,30 @@
+@import-normalize; /* bring in normalize.css styles */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.phoneBook {
+  margin: 20px auto;
+  padding: 10px;
+  width: 300px;
+  /* background-color: #eee; */
+  border-radius: 3px;
+  box-shadow: inset 0 0 100px 48px rgba(180, 180, 180, 0.5),
+    5px 5px 1px 1px rgba(180, 180, 180, 0.8);
+}

@@ -1,0 +1,11 @@
+.filter {
+  box-sizing: border-box;
+  transition: width 0.4s ease-in-out;
+  outline: none;
+}
+
+.filter:focus {
+  width: 100%;
+  border: 2px solid #777;
+  border-radius: 3px;
+}
